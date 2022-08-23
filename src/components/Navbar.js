@@ -30,7 +30,7 @@ function Navbar() {
             <MenuIcon />
           </IconButton>
           <img
-            src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YXohXm3A10Iq8RC3JkHIkK7nCz7xh-vy5yxk90RwAQ&s"
             alt="Google Logo"
             className="navbar__logo"
           />{" "}
