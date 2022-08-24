@@ -1,0 +1,13 @@
+Mistakes while working on project:
+1)Path should be given properly in ../ format only
+2)if class cards are not there then trying to access class cards and showing a blank page in dashboard so i commented it so that after class cards created i can use it
+3)used.id is written in firebase.js actually user.uid has to be written so becoz of this user database is not getting created in firebase leads to failure of creation of class as with out user data a user cant be sent ot a class
+4)when used useHistory .push is a function but now it is not a function we can directly take class $id in useNavigate case
+5)While creating class for asking instructor Name and course code also just add const [instructorName, setInstructorName] = useState("");this line is enough and make similar changes as in class name 
+6)for uploading files we have to enable storage in Build tab in firebase we can enable by changing false to true in rules code then refresh files are uploaded successfully
+7)starts are not coming becoz usereffect is not used which is actually getting class data from database without it no classData , that is reason
+8)to push to main git checkout main ,git pull origin master,this alone can finish task of pushing repo to main
+9)While deploying in build command put CI=false npm run build other wise warnings will not be ignored
+10)Also to install npm modules forcefully in netlify go to environment variables and add new variable NPM_FLAGS,--force as key and value respectively then save variable and deploy it finally works
+11)Steps to push changes in github:i) git status ii) git add . iii)git commit -m "write some comment" iv)git push origin master
+by writing above 4 steps changes u made will be pushed
